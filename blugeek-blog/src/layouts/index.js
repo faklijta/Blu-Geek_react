@@ -60,12 +60,8 @@ const TemplateWrapper = ({ children }) => (
               </div>
 <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="Codestack"
-                  description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."
-                />
-                <Sidebar
-                  title="About author"
-                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+                  title="A blogról"
+                  description="Minden ami Blu-ray! Filmek, Ps3 játékok, tesztek, vélemények, gondolatok."
                 />
               </div>
             </div>
@@ -77,12 +73,13 @@ const TemplateWrapper = ({ children }) => (
 );
 
 
-
 const Sidebar = (props) => (
   <div
       style={{
         border: '2px solid #e6e6e6',
+        background: 'rgba(250, 250, 250, .8)',
         maxWidth: 960,
+        opacity: '0,5',
         padding: '0.5rem',
         marginBottom: '25px'
       }}

@@ -6,6 +6,9 @@ html {
 body {
   margin: 0;
 }
+.blog-post {
+  background: rgba(250, 250, 250, .8)
+}
 article,
 aside,
 details,
@@ -59,7 +62,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: .67em 0;
 }
 mark {
