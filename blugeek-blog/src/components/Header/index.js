@@ -24,7 +24,7 @@ const Header = () => (
             fontSize: '36px'
           }}
         >
-          Blu Geek
+          BLU-GEEK
         </Link>
       </h1>
     </div>
